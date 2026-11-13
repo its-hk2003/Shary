@@ -1,0 +1,212 @@
+---
+name: Warm Metro Habitation
+colors:
+  surface: '#f8f9ff'
+  surface-dim: '#ccdbf4'
+  surface-bright: '#f8f9ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#eff4ff'
+  surface-container: '#e6eeff'
+  surface-container-high: '#dde9ff'
+  surface-container-highest: '#d5e3fd'
+  on-surface: '#0d1c2f'
+  on-surface-variant: '#3e4947'
+  inverse-surface: '#233144'
+  inverse-on-surface: '#ebf1ff'
+  outline: '#6e7977'
+  outline-variant: '#bdc9c6'
+  surface-tint: '#006a63'
+  primary: '#005c55'
+  on-primary: '#ffffff'
+  primary-container: '#0f766e'
+  on-primary-container: '#a3faef'
+  inverse-primary: '#80d5cb'
+  secondary: '#9d4300'
+  on-secondary: '#ffffff'
+  secondary-container: '#fd761a'
+  on-secondary-container: '#5c2400'
+  tertiary: '#005e3f'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#007952'
+  on-tertiary-container: '#99ffcd'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#9cf2e8'
+  primary-fixed-dim: '#80d5cb'
+  on-primary-fixed: '#00201d'
+  on-primary-fixed-variant: '#00504a'
+  secondary-fixed: '#ffdbca'
+  secondary-fixed-dim: '#ffb690'
+  on-secondary-fixed: '#341100'
+  on-secondary-fixed-variant: '#783200'
+  tertiary-fixed: '#6ffbbe'
+  tertiary-fixed-dim: '#4edea3'
+  on-tertiary-fixed: '#002113'
+  on-tertiary-fixed-variant: '#005236'
+  background: '#f8f9ff'
+  on-background: '#0d1c2f'
+  surface-variant: '#d5e3fd'
+typography:
+  display-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 40px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 26px
+    fontWeight: '700'
+    lineHeight: 34px
+    letterSpacing: -0.015em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 22px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+    letterSpacing: -0.005em
+  title-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '600'
+    lineHeight: 22px
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 18px
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '700'
+    lineHeight: 14px
+    letterSpacing: 0.03em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  margin: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+
+This design system targets young Indian professionals, students, and transplants relocating to high-density metros (Bengaluru, Pune, Mumbai, Delhi NCR, Hyderabad). The brand personality balances **institutional safety with communal warmth**: it feels as legally secure and vetted as a bank, but as welcoming and lively as a neighborhood chai stall.
+
+The visual style is **Contemporary Warm Minimalist** paired with subtle physical depth:
+- **Calm, breathable canvas**: Generous negative space reduces the cognitive friction of house-hunting and roommate screening.
+- **Micro-tactile feedback**: Smooth elevations, pill badges, and structured modular cards simulate tactile property dossiers.
+- **Relational warmth**: Accents of warm coral and sunset hues energize calls to action, preventing the interface from feeling transactional or sterile.
+- **Verified assurance**: Deep emerald tones ground critical verification checkpoints (Aadhaar verification, background checks, security deposit escrow), signaling absolute integrity.
+
+## Colors
+
+The palette balances verification-grade authority with empathetic hospitality:
+
+- **Primary (`#0F766E`)**: Deep Emerald / Teal anchor. Used for high-trust anchors, primary brand elements, navigational headers, active tab icons, and contract/lease agreements.
+- **Secondary (`#F97316`)**: Warm Coral / Soft Sunset. Used for primary conversion triggers (e.g., "Connect with Flatmate", "Schedule Visit"), notification badges, and community highlights.
+- **Tertiary (`#10B981`)**: Verified Emerald. Dedicated specifically to safety badges ("Govt ID Verified", "Police Cleared", "95%+ Lifestyle Match"), ensuring immediate visual certification.
+- **Neutral (`#334155`) / Neutral Dark (`#0F172A`)**: Rich Slate & Deep Charcoal for ultra-crisp, high-legibility typography across sunlight conditions.
+- **Surfaces**: Crisp Off-White base (`#F8FAFC`) with elevated card layers (`#FFFFFF`) grounded by hairline micro-borders (`#E2E8F0`).
+
+## Typography
+
+Typography relies entirely on **Plus Jakarta Sans**, utilizing its geometric clarity, modern geometric apertures, and rounded terminals to communicate friendliness without sacrificing density.
+
+- **Numerics & Rent Display**: Pricing figures (e.g., "₹14,500/mo") employ `headline-sm` or `headline-md` with `font-weight: 700` and tabular numeric alignment for rapid budget comparison across flat listings.
+- **Hierarchy rules**: Headline tracking is pulled slightly tighter (`-0.01em` to `-0.02em`) to maintain optical balance on mobile viewports. Small labels and metadata tokens leverage medium-to-bold weights with slight positive letter spacing for quick scannability.
+
+## Layout & Spacing
+
+The layout model is optimized primarily for a 390px-wide mobile screen, utilizing a continuous fluid grid with strict boundaries:
+
+- **Canvas Structure**: 4 columns on mobile with a 16px (`1rem`) gutter and 16px (`1rem`) outer safe margins.
+- **Touch-First Accessibility**: All touch-interactive components (listing rows, quick filter pills, bottom navigation, floating booking bars) strictly maintain a 44px minimum tap height and 48px standard reach area.
+- **Vertical Rhythm**: Micro-gaps between complementary data (e.g., flatmate age and occupation) use `space-xs` (4px). Standard inter-field spacing in card rows adheres to `space-sm` (8px) and `space-md` (16px). Section separations utilize `space-xl` (32px).
+- **Responsive Adaptations**:
+  - **Mobile (<640px)**: 1 column card layouts, sticky bottom conversion bars, horizontal scroll carousels for lifestyle badges and amenity pills.
+  - **Tablet (640px - 1024px)**: 2-column card layout, 24px margins, sticky filter sidebar.
+  - **Desktop (>1024px)**: Max canvas constraint of 1200px centered, 3-column listing grid.
+
+## Elevation & Depth
+
+Visual hierarchy uses a hybrid strategy of **tonal layering**, **hairline borders**, and **warm ambient shadows**:
+
+- **Ground Level (Base Canvas)**: Layer 0 sits at `#F8FAFC`.
+- **Card Tier (Level 1)**: Flat pure-white (`#FFFFFF`) containers resting on the base canvas. Outlined with a soft border (`1px solid #E2E8F0`) paired with a feather-light drop shadow: `box-shadow: 0 2px 8px -2px rgba(15, 23, 42, 0.05), 0 1px 4px -1px rgba(15, 23, 42, 0.03)`.
+- **Interactive Floating Tier (Level 2)**: Sticky booking buttons, filter bottom sheets, and map floating toggles use an elevated shadow with a faint primary-tinted reflection: `box-shadow: 0 12px 24px -6px rgba(15, 118, 110, 0.12), 0 4px 8px -2px rgba(15, 23, 42, 0.04)`.
+- **Verification Overlays**: Modal drawers and verification identity checks utilize an ultra-clean semi-opaque backdrop: `backdrop-filter: blur(8px); background-color: rgba(15, 23, 42, 0.4)`.
+
+## Shapes
+
+The geometric personality embraces generous curvature, projecting an open, inviting environment while keeping UI components organized:
+
+- **Cards & Modal Sheets**: Employ `rounded-2xl` (16px to 20px) to craft friendly, approachable listing tiles.
+- **Buttons & Interactive Badges**: Form controls and primary buttons use standard `rounded-lg` (8px to 12px) for structured utility.
+- **Pills & Tags**: Filter chips, amenity tags ("AC", "Attached Washroom", "Cook Available"), and match badges utilize full pill geometry (`rounded-full` / 9999px radius).
+
+## Components
+
+### Buttons
+- **Primary Action ("Connect", "Schedule Visit")**: Solid Warm Coral (`#F97316`) with white text, font weight 600, height 48px, horizontal padding 20px, roundedness 12px. Active tap scale down (`scale: 0.98`).
+- **Secondary Action ("Message", "View Agreement")**: Deep Emerald tint background (`#0F766E` at 10% opacity) with Deep Emerald text (`#0F766E`), no border.
+- **Tertiary / Utility**: Ghost styling with `#334155` text and `#E2E8F0` border.
+
+### Badges & Match Percentage
+- **Govt ID Verified Badge**: Pill-shaped container, `#10B981` at 12% opacity, text `#047857`, 12px font weight 700. Prepended with a solid shield-check icon.
+- **High Compatibility Tag**: Gradient accent or solid `#0F766E` pill with white text (e.g., "94% Lifestyle Match"), placed on top of candidate flatmate profile cards.
+
+### Cards (Flat & Flatmate Listings)
+- **Structure**: Surface `#FFFFFF`, rounded 16px, 1px border in `#E2E8F0`. 
+- **Image Treatment**: 16:10 aspect ratio image gallery on top with bottom-rounded separation; corner overlays for rent/month and shortlisting bookmark.
+- **Content Row**: Room type title, distance to nearest metro station / tech park, flatmate preferences (e.g., "Vegetarian", "Non-smoker", "Pet Friendly"), and verified poster avatar.
+
+### Chips & Filter Pills
+- **Unselected State**: Surface `#FFFFFF`, border `1px solid #E2E8F0`, text `#334155`, height 36px.
+- **Selected State**: Surface `#0F766E`, border `1px solid #0F766E`, text `#FFFFFF`, font weight 600.
+
+### Input Fields
+- **Search & Filter Inputs**: Height 48px, background `#FFFFFF`, border `1px solid #CBD5E1`, border-radius 12px, text `#0F172A`.
+- **Focus State**: Border transitions to `#0F766E` with an external glow ring: `0 0 0 3px rgba(15, 118, 110, 0.15)`.
+
+### Checkboxes & Radios
+- **Selection Controls**: 20px size with 6px border radius on checkboxes. Checked state fills `#0F766E` with crisp white checkmark icon. Radios use 20px full circle with an 8px centered emerald dot.

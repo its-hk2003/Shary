@@ -1,0 +1,8 @@
+{
+  "name": "Nivas",
+  "description": "Verified metro flatshares, compatible flatmates, and escrow-protected deposits across Indian metros.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
